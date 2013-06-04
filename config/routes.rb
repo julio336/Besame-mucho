@@ -1,5 +1,8 @@
 BesameMucho::Application.routes.draw do
-  root :to => 'static_pages#index'
+  root :to => 'static_pages#shop'
+
+#  match "shop", to: 'static_pages#shop'
+  match "/registro" => "static_pages#index", :as => 'registro'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

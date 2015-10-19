@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.11'
-gem 'rack-cache', '~> 1.2'
+gem 'rack-cache'
 
 #facebook_metatags
 gem 'metamagic'

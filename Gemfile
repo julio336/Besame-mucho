@@ -14,6 +14,8 @@ gem 'geocoder'
 #tagging
 gem 'acts-as-taggable-on'
 
+gem 'i18n', '0.6.11'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 

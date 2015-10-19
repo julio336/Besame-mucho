@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.11'
-gem 'rack-cache', '~> 1.5.0'
 #facebook_metatags
 gem 'metamagic'
 
@@ -39,6 +38,8 @@ end
 
 group :production do
   gem 'pg', '0.12.2'
+  gem 'rack-cache', :require => 'rack/cache'
+
 end
 
 gem 'jquery-rails'

@@ -69,8 +69,6 @@ GEM
     pg (0.12.2)
     polyglot (0.3.5)
     rack (1.4.7)
-    rack-cache (1.5.0)
-      rack (>= 0.4)
     rack-ssl (1.3.4)
       rack
     rack-test (0.6.3)

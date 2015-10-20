@@ -38,8 +38,6 @@ end
 
 group :production do
   gem 'pg', '0.12.2'
-  gem 'rack-cache'
-  gem 'dalli'
 end
 
 gem 'jquery-rails'

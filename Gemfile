@@ -11,7 +11,6 @@ gem 'devise'
 gem 'geocoder'
 
 #tagging
-gem 'acts-as-taggable-on', '~> 3.5.0'
 
 gem 'i18n', '0.6.11'
 
